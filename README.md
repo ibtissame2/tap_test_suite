@@ -14,21 +14,35 @@ Le système TAP (Trusted Automotive Protection) est un framework de sécurité m
 🤝 Collaborative Sensor Voting – Consensus majoritaire entre capteurs redondants
 
 🏗️ Architecture du projet
-text
-tap_test_suite/
-├── modules/               # Modules principaux TAP
+
+tap_test_suite/  
+
+├── modules/   
+
 │   ├── micro_mac.py
+
 │   ├── timing_verifier.py
+
 │   ├── security_escalation.py
+
 │   └── sensor_voting.py
-├── tests/                 # Suite de tests unitaires et d'intégration
+
+├── tests/    
+
 │   ├── test_micro_mac.py
+
 │   ├── test_timing.py
+
 │   ├── test_escalation.py
+
 │   ├── test_voting.py
+
 │   └── test_integration.py
-├── run_all_tests.py       # Script principal de test
+
+├── run_all_tests.py  
+
 └── README.md
+
 🧩 Modules principaux
 1. Micro-MAC Authentication
 Signature 24 bits par message CAN
